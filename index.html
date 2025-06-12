@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Odisea Estelar</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gradient-to-b from-black to-indigo-900 text-white font-sans">
+
+  <!-- Navbar -->
+  <nav class="fixed top-0 left-0 w-full z-50 p-4 flex justify-center navbar">
+    <ul class="flex space-x-12 text-sm uppercase tracking-widest">
+      <li><a href="#intro" class="nav-link hover:text-indigo-400 transition-all duration-300 relative group">Inicio</a></li>
+      <li><a href="#explora" class="nav-link hover:text-indigo-400 transition-all duration-300 relative group">Explora</a></li>
+      <li><a href="#galaxias" class="nav-link hover:text-indigo-400 transition-all duration-300 relative group">Galaxias</a></li>
+      <li><a href="#constelaciones" class="nav-link hover:text-indigo-400 transition-all duration-300 relative group">Constelaciones</a></li>
+      <li><a href="#fenomenos" class="nav-link hover:text-indigo-400 transition-all duration-300 relative group">Fenómenos</a></li>
+      <li><a href="#exploradores" class="nav-link hover:text-indigo-400 transition-all duration-300 relative group">Exploradores</a></li>
+    </ul>
+  </nav>
+
+  <!-- Intro tipo Star Wars -->
+  <section id="intro" class="h-screen flex items-center justify-center scrolling-text text-center">
+    <div class="text-2xl max-w-2xl leading-relaxed">
+      <h1 class="text-6xl font-bold mb-8 fade-in">Una Odisea Cósmica</h1>
+        <p class="mb-4">En los albores de un universo en constante expansión, cuando las nebulosas daban a luz a las primeras estrellas y los planetas emergían de discos protoplanetarios, el cosmos tejía su majestuosa sinfonía. A lo largo de eras inimaginables, las galaxias han danzado en un ballet gravitacional, forjando historias en el tejido mismo del espacio-tiempo.</p>
+        <p class="mt-4">Tu misión: explorar lo inexplorado y convertirte en parte de esta gran aventura espacial.</p>
+      </div>
+    </section>
+
+  <!-- Sección de exploración -->
+  <section id="explora" class="min-h-screen px-8 py-32 space-y-16">
+    <h2 class="text-4xl font-bold text-center fade-in">Explora el Universo</h2>
+    <div class="grid md:grid-cols-3 gap-10">
+      <div class="planet-card transition duration-300 bg-white/5 rounded-xl p-6 text-center glass">
+        <div class="nebula-animation">
+          <div class="nebula-core"></div>
+          <div class="nebula-particles"></div>
+          <div class="nebula-glow"></div>
+        </div>
+        <h3 class="mt-4 text-xl font-semibold">Nebulosa Ardentia</h3>
+        <p class="text-sm mt-2">Una nube estelar en formación con energías desconocidas.</p>
+      </div>
+      <div class="planet-card transition duration-300 bg-white/5 rounded-xl p-6 text-center glass">
+        <div class="planet-animation">
+          <div class="planet-core"></div>
+          <div class="planet-atmosphere"></div>
+          <div class="planet-rings"></div>
+        </div>
+        <h3 class="mt-4 text-xl font-semibold">Planeta Orbis</h3>
+        <p class="text-sm mt-2">Una joya azul que orbita dos soles.</p>
+      </div>
+      <div class="planet-card transition duration-300 bg-white/5 rounded-xl p-6 text-center glass">
+        <div class="asteroid-animation">
+          <div class="asteroid-core"></div>
+          <div class="asteroid-craters"></div>
+          <div class="asteroid-dust"></div>
+        </div>
+        <h3 class="mt-4 text-xl font-semibold">Asteroide Delta-9</h3>
+        <p class="text-sm mt-2">Un fragmento perdido con extrañas señales de vida.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección de galaxias -->
+  <section id="galaxias" class="min-h-screen px-6 py-32">
+    <h2 class="text-4xl font-bold text-center mb-16 fade-in">Viaja por las Galaxias</h2>
+    <div class="galaxy-carousel">
+      <div class="galaxy-container">
+        <div class="galaxy-slide">
+          <div class="galaxy-card bg-gradient-to-br from-purple-800 to-indigo-700">
+            <div class="galaxy-animation helix">
+              <div class="galaxy-core"></div>
+              <div class="galaxy-arms"></div>
+              <div class="galaxy-stars"></div>
+            </div>
+            <p class="text-lg font-semibold text-center mt-2">Galaxia Helix</p>
+          </div>
+        </div>
+        <div class="galaxy-slide">
+          <div class="galaxy-card bg-gradient-to-br from-pink-600 to-purple-700">
+            <div class="galaxy-animation centauri">
+              <div class="galaxy-core"></div>
+              <div class="galaxy-arms"></div>
+              <div class="galaxy-stars"></div>
+            </div>
+            <p class="text-lg font-semibold text-center mt-2">Galaxia Centauri</p>
+          </div>
+        </div>
+        <div class="galaxy-slide">
+          <div class="galaxy-card bg-gradient-to-br from-blue-700 to-cyan-600">
+            <div class="galaxy-animation andromeda">
+              <div class="galaxy-core"></div>
+              <div class="galaxy-arms"></div>
+              <div class="galaxy-stars"></div>
+            </div>
+            <p class="text-lg font-semibold text-center mt-2">Andrómeda</p>
+          </div>
+        </div>
+        <div class="galaxy-slide">
+          <div class="galaxy-card bg-gradient-to-br from-emerald-600 to-teal-500">
+            <div class="galaxy-animation verde">
+              <div class="galaxy-core"></div>
+              <div class="galaxy-arms"></div>
+              <div class="galaxy-stars"></div>
+            </div>
+            <p class="text-lg font-semibold text-center mt-2">Nebulosa Verde</p>
+          </div>
+        </div>
+        <div class="galaxy-slide">
+          <div class="galaxy-card bg-gradient-to-br from-orange-500 to-red-600">
+            <div class="galaxy-animation flama">
+              <div class="galaxy-core"></div>
+              <div class="galaxy-arms"></div>
+              <div class="galaxy-stars"></div>
+            </div>
+            <p class="text-lg font-semibold text-center mt-2">Galaxia Flama</p>
+          </div>
+        </div>
+        <div class="galaxy-slide">
+          <div class="galaxy-card bg-gradient-to-br from-violet-600 to-fuchsia-600">
+            <div class="galaxy-animation iris">
+              <div class="galaxy-core"></div>
+              <div class="galaxy-arms"></div>
+              <div class="galaxy-stars"></div>
+            </div>
+            <p class="text-lg font-semibold text-center mt-2">Galaxia Iris</p>
+          </div>
+        </div>
+        <div class="galaxy-slide">
+          <div class="galaxy-card bg-gradient-to-br from-amber-500 to-yellow-400">
+            <div class="galaxy-animation dorada">
+              <div class="galaxy-core"></div>
+              <div class="galaxy-arms"></div>
+              <div class="galaxy-stars"></div>
+            </div>
+            <p class="text-lg font-semibold text-center mt-2">Galaxia Dorada</p>
+          </div>
+        </div>
+        <div class="galaxy-slide">
+          <div class="galaxy-card bg-gradient-to-br from-rose-500 to-pink-500">
+            <div class="galaxy-animation rosa">
+              <div class="galaxy-core"></div>
+              <div class="galaxy-arms"></div>
+              <div class="galaxy-stars"></div>
+            </div>
+            <p class="text-lg font-semibold text-center mt-2">Galaxia Rosa</p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-controls">
+        <button class="carousel-btn prev-btn" onclick="moveCarousel(-1)">❮</button>
+        <button class="carousel-btn next-btn" onclick="moveCarousel(1)">❯</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección de Constelaciones -->
+  <section id="constelaciones" class="min-h-screen px-8 py-32 bg-gradient-to-b from-indigo-900 to-black">
+    <h2 class="text-4xl font-bold text-center mb-16 fade-in">Descubre las Constelaciones</h2>
+    <div class="grid md:grid-cols-3 gap-12 max-w-6xl mx-auto">
+      <div class="constellation-card">
+        <div class="constellation-animation osa-mayor">
+          <div class="stars-container"></div>
+          <div class="constellation-lines"></div>
+        </div>
+        <h3>Osa Mayor</h3>
+        <p>La constelación más reconocible del hemisferio norte, conocida por su forma de carro o cucharón.</p>
+      </div>
+      <div class="constellation-card">
+        <div class="constellation-animation orion">
+          <div class="stars-container"></div>
+          <div class="constellation-lines"></div>
+        </div>
+        <h3>Orión</h3>
+        <p>Una de las constelaciones más brillantes, famosa por su cinturón de tres estrellas alineadas.</p>
+      </div>
+      <div class="constellation-card">
+        <div class="constellation-animation cassiopeia">
+          <div class="stars-container"></div>
+          <div class="constellation-lines"></div>
+        </div>
+        <h3>Casiopea</h3>
+        <p>Conocida por su distintiva forma de "W" o "M", visible durante todo el año en el hemisferio norte.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección de Fenómenos Espaciales -->
+  <section id="fenomenos" class="min-h-screen px-8 py-32">
+    <h2 class="text-4xl font-bold text-center mb-16 fade-in">Fenómenos Espaciales</h2>
+    <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+      <div class="phenomenon-card glass p-6 rounded-xl group">
+        <div class="phenomenon-animation supernova">
+          <div class="explosion-core"></div>
+          <div class="explosion-waves"></div>
+        </div>
+        <h3 class="text-xl font-semibold mt-4 mb-2 group-hover:text-indigo-400 transition-colors">Supernova</h3>
+        <p class="text-sm text-gray-300">La muerte explosiva de una estrella masiva, creando los elementos de la vida.</p>
+      </div>
+      <div class="phenomenon-card glass p-6 rounded-xl group">
+        <div class="phenomenon-animation blackhole">
+          <div class="blackhole-core"></div>
+          <div class="blackhole-accretion"></div>
+        </div>
+        <h3 class="text-xl font-semibold mt-4 mb-2 group-hover:text-indigo-400 transition-colors">Agujero Negro</h3>
+        <p class="text-sm text-gray-300">Un portal al infinito, donde el espacio y el tiempo se distorsionan.</p>
+      </div>
+      <div class="phenomenon-card glass p-6 rounded-xl group">
+        <div class="phenomenon-animation quasar">
+          <div class="quasar-core"></div>
+          <div class="quasar-jets"></div>
+        </div>
+        <h3 class="text-xl font-semibold mt-4 mb-2 group-hover:text-indigo-400 transition-colors">Quásar</h3>
+        <p class="text-sm text-gray-300">Los objetos más brillantes del universo, alimentados por agujeros negros supermasivos.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección de Exploradores -->
+  <section id="exploradores" class="min-h-screen px-8 py-32 bg-gradient-to-b from-black to-indigo-900">
+    <h2 class="text-4xl font-bold text-center mb-16 fade-in">Grandes Exploradores</h2>
+    <div class="max-w-6xl mx-auto">
+      <div class="explorer-timeline">
+        <div class="timeline-item fade-in">
+          <div class="timeline-content glass p-6 rounded-xl">
+            <h3 class="text-2xl font-semibold mb-2">Galileo Galilei</h3>
+            <p class="text-gray-300">El padre de la astronomía moderna, que cambió nuestra visión del cosmos.</p>
+          </div>
+        </div>
+        <div class="timeline-item fade-in">
+          <div class="timeline-content glass p-6 rounded-xl">
+            <h3 class="text-2xl font-semibold mb-2">Edwin Hubble</h3>
+            <p class="text-gray-300">Descubrió que el universo se expande, revolucionando nuestra comprensión del cosmos.</p>
+          </div>
+        </div>
+        <div class="timeline-item fade-in">
+          <div class="timeline-content glass p-6 rounded-xl">
+            <h3 class="text-2xl font-semibold mb-2">Carl Sagan</h3>
+            <p class="text-gray-300">El gran comunicador de la ciencia, que nos enseñó a amar el universo.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
